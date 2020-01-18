@@ -15,3 +15,9 @@ My goal in the project is to distribute and store data across multiple data serv
 
 My redundant block storage should follow the general approach described for RAID-5. I distribute data and parity information across servers, at the granularity of the block size from my configuration file. 
 
+
+All the Functions of My Project: 
+1. RAID-5 function in filesystem, which can allow random 1 server fail-stop. 
+2. RAID-5 function in filesystem, which can allow recovering the data block for read function after corrupting data block in one disk. 
+3. RAID-1 function in filesystem, which can allow random 1 server fail-stop.
+4. RAID-1 function in filesystem, which can allow recovering the data block for read function after corrupting data block in one disk.
